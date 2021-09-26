@@ -1,8 +1,19 @@
 <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <title> LOGIN PAGE </title>
 </head>
 <body>
-    <div>
-        <div>   THE AUTHOR OF THIS BLOG IS: MATTIA  </div>
+    <div class="login-box">
+        <h1> LOGIN </h1>
+        <div class="textbox">
+            <i class="fas fa-user"></i> <input type="text" id="" placeholder="Username" name="value">
+        </div>
+
+        <div class="textbox">
+            <i class="fas fa-key"></i> <input type="password" id="" placeholder="password" name="value">
+        </div>
+
+    <input type="button" class="btn" value="sign in">
+
     </div>
 </body>
